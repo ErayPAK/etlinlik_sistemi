@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sepetiniz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <header class="bg-gradient-to-r from-purple-500 to-pink-500 text-white py-6 shadow-md">
+        <div class="container mx-auto px-4">
+            <h1 class="text-3xl font-bold text-center">Sepetiniz</h1>
+        </div>
+    </header>
+
+    <nav class="bg-white text-gray-800 py-3 shadow-sm">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <a href="anasayfa.html" class="hover:text-purple-600 transition duration-300">Etkinlikler</a>
+            <a href="#" class="hover:text-purple-600 transition duration-300">Duyurular</a>
+            <a href="#" class="hover:text-purple-600 transition duration-300">Öneriler</a>
+            <a href="sepet.html" class="hover:text-purple-600 transition duration-300">Sepet</a>
+            <a href="#" class="hover:text-purple-600 transition duration-300">Çıkış</a>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-4 py-8">
+        <section class="bg-white rounded-lg shadow-lg p-6" id="sepet-listesi">
+            <p>Sepetinizde ürün bulunmamaktadır.</p>
+        </section>
+        <div class="bg-white rounded-lg shadow-lg p-6 mt-4" id="sepet-toplam">
+            <b>Toplam Tutar: 0.00 TL</b>
+        </div>
+    </main>
+
+    <footer class="bg-gray-900 text-white py-4 mt-8">
+        <div class="container mx-auto px-4 text-center">
+            &copy; 2025 Etkinlik ve Duyuru Platformu
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="sepet.js"></script> </body>
+</html>
