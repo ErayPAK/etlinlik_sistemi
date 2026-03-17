@@ -10,7 +10,6 @@ Kullanıcıların güncel etkinlikleri görüntüleyebildiği, detaylarını inc
 ## Kullanılan Teknolojiler
 * **Backend:** PHP
 * **Frontend:** HTML, CSS, PHP, Javascript
-* **Veritabanı:** bfd
 
 ## Kurulum
 1. Projeyi bilgisayarınıza indirin:
